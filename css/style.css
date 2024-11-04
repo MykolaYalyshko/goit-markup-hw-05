@@ -825,6 +825,10 @@ img {
     margin-bottom: 24px;
 }
 
+.modal-cube:hover{
+    fill: #F4F4FD;;
+}
+
 .label-modal-policy {
     line-height: 1.33333;
     text-decoration: underline;
