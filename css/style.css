@@ -817,8 +817,9 @@ img {
     border-color: #4D5AE5; 
 }
 
-.modal-input-comment:focus::placeholder {
-    color: #4D5AE5;
+.visually-hidden:hover,
+.modal-policy-icon:focus {
+    fill: #4D5AE5;
 }
 
 .modal-policy {
