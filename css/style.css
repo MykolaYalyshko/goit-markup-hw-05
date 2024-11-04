@@ -759,11 +759,6 @@ img {
 }
 
 
-
-.visually-hidden {
-    
-}
-
 .visually-hidden {
     border-color: #4D5AE5; 
 }
@@ -807,7 +802,7 @@ img {
     border-color: #4D5AE5; 
 }
 
-.visually-hidden:focus + .modal-policy-icon {
+.modal-input:focus + .modal-icon {
     fill: #4D5AE5;
 }
 
