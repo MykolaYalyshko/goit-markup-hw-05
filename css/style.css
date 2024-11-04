@@ -782,6 +782,7 @@ img {
 .modal-cube:hover {
     background-color: #404bbf;
     border: none;
+    fill: #F4F4FD;
 }
 
 .modal-class {
@@ -814,6 +815,10 @@ img {
 
 .modal-input-comment:focus {
     border-color: #4D5AE5; 
+}
+
+.modal-input-comment:focus::placeholder {
+    color: #4D5AE5;
 }
 
 .modal-policy {
