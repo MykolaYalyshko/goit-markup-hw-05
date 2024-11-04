@@ -817,8 +817,8 @@ img {
     border-color: #4D5AE5; 
 }
 
-.visually-hidden:hover,
-.modal-policy-icon:focus {
+.visually-hidden:focus+
+.modal-policy-icon {
     fill: #4D5AE5;
 }
 
