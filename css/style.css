@@ -560,17 +560,7 @@ img {
     gap: 24px;
 }
 
-.paragraph-email-label {
-    border: 1px solid #ffffff;
-    border-radius: 4px;
-    width: 264px;
-    height: 40px;
-    margin-right: 24px;
-    color: #ffffff;
-    background-color: transparent;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    padding-left: 16px;
-}
+
 
 .paragraph-email-input {
     display: block;
