@@ -746,7 +746,8 @@ img {
 .modal-input:hover,
 .modal-input:focus,
 .modal-input:active {
-    border: 1px solid #4d5ae5;
+    
+    fill: #4D5AE5;
 }
 
 .modal-icon {
