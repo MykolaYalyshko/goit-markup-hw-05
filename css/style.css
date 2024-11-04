@@ -539,13 +539,13 @@ img {
     background-color: #31d0aa;
 }
 
-.footer-paragraph-sumbit {
+.paragraph {
     width: 453px;
     margin-left: 80px;
     height: 80px;
 }
 
-.footer-paragraph-title {
+.paragraph-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -554,13 +554,13 @@ img {
     margin-bottom: 16px;
 }
 
-.footer-paragraph-form {
+.paragraph-form {
     display: flex;
-    
+    flex-direction: row;
     gap: 24px;
 }
 
-.footer-paragraph-email {
+.paragraph-email {
     border: 1px solid #ffffff;
     border-radius: 4px;
     width: 264px;
@@ -572,7 +572,7 @@ img {
     padding-left: 16px;
 }
 
-.footer-email {
+.paragraph-email-input {
     display: block;
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
@@ -587,10 +587,10 @@ img {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-.footer-email::placeholder {
+.paragraph-email-input::placeholder {
     fill: #ffffff;
 }
-.footer-btn {
+.paragraph-btn {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -609,13 +609,13 @@ img {
     cursor: pointer;
 }
 
-.footer-icons-email {
+.paragraph-icons-email {
     fill: #FFFFFF;
     margin-left: 16px;
 }
 
-.footer-btn:hover,
-.footer-btn:focus {
+.paragraph-btn:hover,
+.paragraph-btn:focus {
     background-color: #31d0aa;
 }
 
