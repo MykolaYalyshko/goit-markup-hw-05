@@ -773,6 +773,11 @@ img {
     overflow: hidden;
 }
 
+.visually-hidden {
+    border-color: #4D5AE5; 
+    fill: #4D5AE5; 
+}
+
 
 .modal-cube:hover {
     background-color: #404bbf;
