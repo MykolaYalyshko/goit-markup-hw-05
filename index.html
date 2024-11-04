@@ -380,8 +380,85 @@
                     </li>
                 </ul>
             </div>
+            <div class="footer-sumbit">
+                <label for="footer-emaill">
+                    <p class="footer-social">Subscribe</p>
+                    <form action="" class="footer-form">
+                        <input type="email" class="footer-email" id="footer-email" placeholder="E-mail">
+                        <a href="" class="footer-btn-link">
+                            <button type="sumbit" class="footer-btn">Subscribe
+                                    <svg class="footer-icons-email" width="24" height="24">
+                                        <use class="footer-img-email" href="./images/icons.svg#icon-Frame"></use>
+                                    </svg>
+                            </button>
+                        </a>
+                    </form>
+                </label>
+            </div>
         </div>
     </footer>
+    <div class="registration">
+        <div class="modal">
+            <button type="button" class="modal-open">
+                <svg class="btn-icon-close" width="8" height="8">
+                    <use class="btn-img" href="./images/icons.svg#icon-closeblack"></use>
+                </svg>
+            </button>
+            <div class="modal-box">
+                <p class="modal-title">
+                    Leave your contacts and we will call you back
+                </p>
+                <form class="modal-form">
+                    <div class="modal-field">
+                        <label for="user-name" class="modal-label">Name</label>
+                        <div class="input-wrapper">
+                            <input type="text" name="user-name" id="user-name" class="modal-input" placeholder="">
+                            <svg class="modal-icon" width="24" height="24">
+                                <use class="modal-img" href="./images/icons.svg#icon-personblack"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="modal-field">
+                        <label for="user-name" class="modal-label">Phone</label>
+                        <div class="input-wrapper">
+                            <input type="text" name="user-name" id="user-name" class="modal-input" placeholder="">
+                            <svg class="modal-icon" width="24" height="24">
+                                <use class="modal-img" href="./images/icons.svg#icon-phoneblack"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="modal-field">
+                        <label for="user-name" class="modal-label">Email</label>
+                        <div class="input-wrapper">
+                            <input type="text" name="user-name" id="user-name" class="modal-input" placeholder="">
+                            <svg class="modal-icon" width="24" height="24">
+                                <use class="modal-img" href="./images/icons.svg#icon-emailblack"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="modal-field">
+                        <label for="user-name" class="modal-label">Comment</label>
+                        <div class="input-wrapper">
+                            <input type="text" name="user-name" id="user-name" class="modal-input-comment" placeholder="Text-input">
+                        </div>
+                    </div>
+                    <div class="modal-policy">
+                        <input id="user-policy" type="text" class="visually-hidden">
+                        <label for="user-policy" class="modal-class">
+                            I accept the terms and conditions of the
+                            <span class="modal-cube">
+                                <svg class="modal-policy-icon" width="16" height="16">
+                                    <use class="modal-policy-img"></use>
+                                </svg>
+                            </span>
+                            <a href="" class="label-modal-policy"> Privacy Policy</a>
+                        </label>
+                    </div>
+                    <button class="modal-letter">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
 
